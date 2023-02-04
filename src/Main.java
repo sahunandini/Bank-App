@@ -16,7 +16,7 @@ public class Main {
         System.out.println("The account number of new SBI Account is " + user.getAccountNo());
 
         // Add Amount
-        String message = user.addMoney(100000);
+        user.addMoney(100000);
 
         // Check Balance
         double newBalance = user.getBalance();
